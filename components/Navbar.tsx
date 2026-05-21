@@ -20,7 +20,6 @@ export function Navbar() {
       dropdown: [
         { href: '/individual-counselling', label: 'Individual Counselling' },
         { href: '/couples-counselling', label: 'Couples Counselling' },
-        { href: '/adolescent-counselling', label: 'Adolescent Counselling' },
         { href: '/family-counselling', label: 'Family Counselling' },
         { href: '/career-counselling', label: 'Career Counselling' },
         { href: '/pre-post-marital-counselling', label: 'Pre & Post Marital Counselling' }
@@ -34,11 +33,11 @@ export function Navbar() {
       <nav className="flex justify-between items-center w-full px-6 md:px-20 py-5 max-w-7xl mx-auto relative">
         <Link href="/" className="flex items-center">
           <Image 
-            src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/saiiiw_logo_5.png"
+            src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/saiiiw_logo_6.png"
             alt="SAIIIW Logo"
             width={240}
             height={80}
-            className="object-contain w-auto h-12 md:h-16 transform scale-[2] md:scale-[2.15] translate-y-1 origin-left"
+            className="object-contain w-auto h-12 md:h-16 transform scale-[1.5] md:scale-[1.7] origin-left translate-y-1"
             priority
           />
         </Link>
@@ -52,7 +51,7 @@ export function Navbar() {
                     href={link.href}
                     className={cn(
                       "text-sm font-semibold tracking-wide uppercase transition-colors duration-300",
-                      pathname === link.href || (['/individual', '/couples', '/adolescent', '/family', '/career', '/pre-post-marital'].some(p => pathname.startsWith(p)) && link.href === '/services')
+                      pathname === link.href || (['/individual', '/couples', '/family', '/career', '/pre-post-marital'].some(p => pathname.startsWith(p)) && link.href === '/services')
                         ? "text-primary border-b-2 border-primary-container pb-1"
                         : "text-on-surface-variant hover:text-primary"
                     )}
@@ -119,7 +118,7 @@ export function Navbar() {
                     href={link.href}
                     className={cn(
                       "text-sm font-semibold tracking-wide uppercase transition-colors duration-300 py-2",
-                      pathname === link.href || (['/individual', '/couples', '/adolescent', '/family', '/career', '/pre-post-marital'].some(p => pathname.startsWith(p)) && link.href === '/services')
+                      pathname === link.href || (['/individual', '/couples', '/family', '/career', '/pre-post-marital'].some(p => pathname.startsWith(p)) && link.href === '/services')
                         ? "text-primary"
                         : "text-on-surface"
                     )}

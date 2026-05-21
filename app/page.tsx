@@ -57,7 +57,7 @@ export default function HomePage() {
               Islamically Integrated Psychology &amp; Counselling
             </h1>
             <p className="text-on-surface-variant text-lg md:text-xl font-light mb-10 max-w-xl leading-relaxed">
-              Faith-centred therapy rooted in the Qur'an and Sunnah, combined with evidence-based psychological care in South Africa.
+              Faith-centred therapy rooted in the Qur'an and Sunnah, combined with evidence-based psychological care in South Africa and internationally.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
@@ -104,7 +104,7 @@ export default function HomePage() {
 
       {/* Mission & Legacy */}
       <section className="py-24 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        <div className="w-full max-w-[384px] aspect-square mx-auto lg:ml-auto lg:mr-0 rounded-2xl overflow-hidden relative shadow-2xl">
+        <div className="w-full max-w-[484px] aspect-square mx-auto lg:ml-auto lg:mr-0 rounded-2xl overflow-hidden relative shadow-2xl">
           <Image 
             src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/our%20mission.png" 
             alt="Our Mission" 
@@ -120,17 +120,11 @@ export default function HomePage() {
             SAIIIW is dedicated to bridging the timeless wisdom of Islamic traditions with evidence-based psychological care. We provide a sanctuary for healing that honors both the mind and the soul.
           </p>
           
-          <div className="grid grid-cols-3 gap-6 pt-6 border-t border-outline-variant/50">
-            {[
-              { num: '15+', label: 'Years of Community\nService' },
-              { num: '5000+', label: 'Clients Supported\n' },
-              { num: '100+', label: 'Workshops Delivered\n' },
-            ].map((stat, i) => (
-              <div key={i}>
-                <div className="text-2xl font-serif text-primary font-medium mb-2">{stat.num}</div>
-                <div className="text-xs text-on-surface-variant uppercase tracking-widest font-semibold whitespace-pre-line leading-tight">{stat.label}</div>
-              </div>
-            ))}
+          <div className="pt-6 border-t border-outline-variant/50">
+            <div>
+              <div className="text-3xl font-serif text-primary font-medium mb-2">15 Years</div>
+              <div className="text-xs text-on-surface-variant uppercase tracking-widest font-semibold whitespace-pre-line leading-tight">Experience</div>
+            </div>
           </div>
         </div>
       </section>
@@ -142,16 +136,15 @@ export default function HomePage() {
             <h2 className="font-serif text-3xl md:text-4xl font-medium text-on-surface mb-4">Counselling Services</h2>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {[
               { icon: <User className="w-4 h-4 text-primary" strokeWidth={1.5} />, title: 'Individual' },
               { icon: <Heart className="w-4 h-4 text-primary" strokeWidth={1.5} />, title: 'Couple' },
-              { icon: <Clock className="w-4 h-4 text-primary" strokeWidth={1.5} />, title: 'Adolescents' },
               { icon: <Users className="w-4 h-4 text-primary" strokeWidth={1.5} />, title: 'Family' },
               { icon: <Briefcase className="w-4 h-4 text-primary" strokeWidth={1.5} />, title: 'Career Counselling' },
               { icon: <Flower className="w-4 h-4 text-primary" strokeWidth={1.5} />, title: 'Pre & Post Marital' }
             ].map((service, i) => (
-              <div key={i} className="bg-surface rounded-lg p-5 border border-outline-variant/50 flex items-center space-x-4 justify-center md:justify-start">
+              <div key={i} className="w-full sm:w-[calc(50%-12px)] md:w-[calc(33.333%-16px)] bg-surface rounded-lg p-5 border border-outline-variant/50 flex items-center space-x-4 justify-start">
                 <div className="shrink-0">{service.icon}</div>
                 <h3 className="font-serif text-[17px] text-on-surface">{service.title}</h3>
               </div>
@@ -234,13 +227,17 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-16 flex flex-col items-center">
             <h2 className="font-serif text-3xl md:text-4xl font-medium text-on-surface mb-4">Integrated Wellness Services</h2>
+            <p className="text-on-surface-variant text-[15px] max-w-3xl leading-relaxed">
+              At our Islamic psychology practice, we collaborate with practitioners in fields such as Tibb, cupping therapy, Sunnah sports, and other Islamic holistic wellness disciplines. Based on our assessments, we may refer clients to these trusted practitioners where appropriate and beneficial to their overall well-being.
+            </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { icon: <Droplet className="w-6 h-6 text-primary" strokeWidth={1.5} />, title: 'Cupping' },
               { icon: <Leaf className="w-6 h-6 text-primary" strokeWidth={1.5} />, title: 'Tibb' },
-              { icon: <Activity className="w-6 h-6 text-primary" strokeWidth={1.5} />, title: 'Sunnah Sports' }
+              { icon: <Activity className="w-6 h-6 text-primary" strokeWidth={1.5} />, title: 'Sunnah Sports' },
+              { icon: <BookOpen className="w-6 h-6 text-primary" strokeWidth={1.5} />, title: 'Ruqyah as-shariah' }
             ].map((service, i) => (
               <div key={i} className="bg-surface rounded-xl p-10 border border-outline-variant/30 shadow-sm flex flex-col items-center text-center">
                 <div className="w-14 h-14 rounded-full bg-surface-container-low flex items-center justify-center mb-6">

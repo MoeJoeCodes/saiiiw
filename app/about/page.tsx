@@ -2,9 +2,9 @@ import { ClipboardList, Building2, Heart } from 'lucide-react';
 import Link from 'next/link';
 
 const TEAM = [
-  { name: 'Juraida Latif', role: 'Lead Practitioner', initials: 'JL', slug: 'juraida-latif' },
-  { name: 'Shaakirah Dockrat Boda', role: 'Clinical Specialist', initials: 'SB', slug: 'shaakirah-dockrat-boda' },
-  { name: 'Umme Muhammed', role: 'Wellness Counselor', initials: 'UM', slug: 'umme-muhammed' },
+  { name: 'Juraida Latif', role: 'Organisational Psychologist and Islamic Psychology Practitioner', initials: 'JL', slug: 'juraida-latif' },
+  { name: 'Shaakirah Dockrat Boda', role: 'Organisational Psychologist and Islamic Psychology Practitioner', initials: 'SB', slug: 'shaakirah-dockrat-boda' },
+  { name: 'Umme Muhammed', role: 'Counsellor', initials: 'UM', slug: 'umme-muhammed' },
   { name: 'Saeed Nasser', role: 'Integrated Consultant', initials: 'SN', slug: 'saeed-nasser' },
 ];
 

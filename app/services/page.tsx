@@ -8,7 +8,7 @@ const SERVICES = [
     title: "Individual Counselling",
     description: "A safe, confidential space to explore your thoughts, emotions and personal challenges with professional support.",
     bullets: ["Anxiety and stress management", "Emotional wellbeing", "Personal growth and self-awareness", "Coping with life transitions"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/individual_counsellings.jpeg",
+    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/couples.jpg",
     link: "/individual-counselling"
   },
   {
@@ -18,14 +18,6 @@ const SERVICES = [
     bullets: ["Communication skills & conflict resolution", "Trust rebuilding & emotional intimacy", "Relationship growth & alignment"],
     image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Career_Counsellingsss.jpeg",
     link: "/couples-counselling"
-  },
-  {
-    category: "Youth Support",
-    title: "Adolescent Counselling",
-    description: "Providing young people with guidance, emotional support and tools to navigate life’s challenges in an ever-changing world.",
-    bullets: ["School and social pressures", "Identity and self-confidence", "Emotional regulation & stress support"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Adolescent_Counsellings.jpeg",
-    link: "/adolescent-counselling"
   },
   {
     category: "Harmony",

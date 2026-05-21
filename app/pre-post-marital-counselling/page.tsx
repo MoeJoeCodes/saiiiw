@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Pre & Post Marital Counselling in South Africa | Islamic Psychology Therapy',
+  title: 'Pre & Post Marital Counselling | Islamic Psychology Therapy',
   description:
     'Confidential pre and post marital counselling using an Islamic integrated approach. Get support for marriage preparation, managing expectations, and strengthening your partnership. Book a session today.',
 };
@@ -18,7 +18,7 @@ export default function PrePostMaritalCounsellingPage() {
           className="absolute inset-0 pointer-events-none -z-10 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')] opacity-40"
         />
         <h1 className="font-serif text-5xl md:text-6xl mb-6 text-on-surface font-semibold tracking-tight">
-          Pre & Post Marital Counselling in South Africa
+          Pre & Post Marital Counselling
         </h1>
         <p className="text-lg text-on-surface-variant max-w-2xl mx-auto mb-10 leading-relaxed">
           Support your relationship foundation before and after marriage through Islamically integrated therapy.
@@ -43,7 +43,7 @@ export default function PrePostMaritalCounsellingPage() {
               Pre and post marital counselling provides a supportive, confidential space where couples can explore their relationship dynamic, prepare for marriage, align expectations, and overcome early marital challenges with a qualified therapist. Our approach combines evidence-based psychological tools with Islamic spiritual wellness.
             </p>
             <p className="text-on-surface-variant leading-relaxed text-lg">
-              This service supports couples across South Africa seeking faith-aligned therapy and marital growth. Whether you are planning to get married or navigating the early years of your marriage, you can find the supportive path you are looking for together.
+              This service supports couples seeking faith-aligned therapy and marital growth. Whether you are planning to get married or navigating the early years of your marriage, you can find the supportive path you are looking for together.
             </p>
           </div>
           <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-sm border border-outline-variant/30 relative order-1 lg:order-2">
@@ -65,7 +65,7 @@ export default function PrePostMaritalCounsellingPage() {
             Who Can Benefit From Marital Counselling
           </h2>
           <p className="text-on-surface-variant text-lg">
-            Our marital therapy services in South Africa can provide relief and growth for a range of relational struggles and couple transitions.
+            Our marital therapy services can provide relief and growth for a range of relational struggles and couple transitions.
           </p>
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
@@ -193,10 +193,10 @@ export default function PrePostMaritalCounsellingPage() {
       {/* Local SEO Paragraph */}
       <section className="py-24 px-6 md:px-20 max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-on-surface font-medium">
-          Pre & Post Marital Counselling Services in South Africa
+          Pre & Post Marital Counselling Services
         </h2>
         <p className="text-on-surface-variant leading-relaxed text-lg mb-8">
-          We provide professional pre and post marital counselling services to clients across South Africa. Sessions are offered in a safe, confidential and supportive environment designed to help you build a strong foundation for your future together.
+          We provide professional pre and post marital counselling services to couples. Sessions are offered in a safe, confidential and supportive environment designed to help you build a strong foundation for your future together.
         </p>
         <div className="w-12 h-1 bg-primary mx-auto rounded-full" />
       </section>

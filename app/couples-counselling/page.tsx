@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Couples Counselling in South Africa | Islamic Psychology Therapy',
+  title: 'Couples Counselling in South Africa and Internationally | Islamic Psychology Therapy',
   description:
     'Confidential couples counselling using an Islamic integrated approach. Get support for communication, conflict resolution, and marital growth. Book a session today.',
 };
@@ -18,7 +18,7 @@ export default function CouplesCounsellingPage() {
           className="absolute inset-0 pointer-events-none -z-10 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')] opacity-40"
         />
         <h1 className="font-serif text-5xl md:text-6xl mb-6 text-on-surface font-semibold tracking-tight">
-          Couples Counselling in South Africa
+          Couples Counselling in South Africa and Internationally
         </h1>
         <p className="text-lg text-on-surface-variant max-w-2xl mx-auto mb-10 leading-relaxed">
           Support for your relationship and spiritual wellbeing through Islamically integrated therapy.
@@ -43,7 +43,7 @@ export default function CouplesCounsellingPage() {
               Couples counselling provides a supportive, confidential space where partners can explore their relationship dynamic, improve communication, and overcome challenges with a qualified therapist. Our approach combines evidence-based psychological therapy with Islamic spiritual wellness, offering a holistic path to healing and reconnection.
             </p>
             <p className="text-on-surface-variant leading-relaxed text-lg">
-              This service supports couples across South Africa seeking faith-aligned therapy and relational growth. Whether you need conflict resolution, marital enrichment, or a faith-based therapy framework, you can find the supportive path you are looking for together.
+              This service supports couples across South Africa and internationally seeking faith-aligned therapy and relational growth. Whether you need conflict resolution, marital enrichment, or a faith-based therapy framework, you can find the supportive path you are looking for together.
             </p>
           </div>
           <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-sm border border-outline-variant/30 relative order-1 lg:order-2">
@@ -65,7 +65,7 @@ export default function CouplesCounsellingPage() {
             Who Can Benefit From Couples Counselling
           </h2>
           <p className="text-on-surface-variant text-lg">
-            Our couples therapy South Africa services can provide relief and growth for a range of relational struggles, including communication breakdown, conflict resolution, and intimacy issues.
+            Our couples therapy services can provide relief and growth for a range of relational struggles, including communication breakdown, conflict resolution, and intimacy issues.
           </p>
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
@@ -193,10 +193,10 @@ export default function CouplesCounsellingPage() {
       {/* Local SEO Paragraph */}
       <section className="py-24 px-6 md:px-20 max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-on-surface font-medium">
-          Couples Counselling Services in South Africa
+          Couples Counselling Services in South Africa and Internationally
         </h2>
         <p className="text-on-surface-variant leading-relaxed text-lg mb-8">
-          We provide professional couples counselling services to clients across South Africa. Sessions are offered in a safe, confidential and supportive environment designed to help you strengthen your bond and move forward with clarity.
+          We provide professional couples counselling services to clients across South Africa and internationally. Sessions are offered in a safe, confidential and supportive environment designed to help you strengthen your bond and move forward with clarity.
         </p>
         <div className="w-12 h-1 bg-primary mx-auto rounded-full" />
       </section>
