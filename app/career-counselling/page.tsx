@@ -18,7 +18,7 @@ export default function CareerCounsellingPage() {
           className="absolute inset-0 pointer-events-none -z-10 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')] opacity-40"
         />
         <h1 className="font-serif text-5xl md:text-6xl mb-6 text-on-surface font-semibold tracking-tight">
-          Career Counselling in South Africa
+          Career Counselling
         </h1>
         <p className="text-lg text-on-surface-variant max-w-2xl mx-auto mb-10 leading-relaxed">
           Support for your professional journey and workplace wellbeing through Islamically integrated therapy.
@@ -193,7 +193,7 @@ export default function CareerCounsellingPage() {
       {/* Local SEO Paragraph */}
       <section className="py-24 px-6 md:px-20 max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-on-surface font-medium">
-          Career Counselling Services in South Africa
+          Career Counselling Services
         </h2>
         <p className="text-on-surface-variant leading-relaxed text-lg mb-8">
           We provide professional career counselling services to clients across South Africa. Sessions are offered in a safe, confidential and supportive environment designed to help you navigate your professional trajectory with clarity and confidence.

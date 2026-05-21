@@ -18,7 +18,7 @@ export default function CouplesCounsellingPage() {
           className="absolute inset-0 pointer-events-none -z-10 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')] opacity-40"
         />
         <h1 className="font-serif text-5xl md:text-6xl mb-6 text-on-surface font-semibold tracking-tight">
-          Couples Counselling in South Africa and Internationally
+          Couples Counselling
         </h1>
         <p className="text-lg text-on-surface-variant max-w-2xl mx-auto mb-10 leading-relaxed">
           Support for your relationship and spiritual wellbeing through Islamically integrated therapy.
@@ -48,7 +48,7 @@ export default function CouplesCounsellingPage() {
           </div>
           <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-sm border border-outline-variant/30 relative order-1 lg:order-2">
             <Image
-              src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Pre_&_Post%20Marital_Counsellingss.jpeg"
+              src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Career_Counsellingsss.jpeg"
               alt="Couples Islamic counselling and faith-based therapy session"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
@@ -193,7 +193,7 @@ export default function CouplesCounsellingPage() {
       {/* Local SEO Paragraph */}
       <section className="py-24 px-6 md:px-20 max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-on-surface font-medium">
-          Couples Counselling Services in South Africa and Internationally
+          Couples Counselling Services
         </h2>
         <p className="text-on-surface-variant leading-relaxed text-lg mb-8">
           We provide professional couples counselling services to clients across South Africa and internationally. Sessions are offered in a safe, confidential and supportive environment designed to help you strengthen your bond and move forward with clarity.
