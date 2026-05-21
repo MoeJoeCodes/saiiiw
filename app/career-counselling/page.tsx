@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Career Counselling in South Africa | Islamic Psychology Therapy',
+  title: 'Career Counselling in South Africa and Internationally | Islamic Psychology Therapy',
   description:
     'Confidential career counselling using an Islamic integrated approach. Get support for professional growth, decision making, and workplace stress. Book a session today.',
 };
@@ -43,7 +43,7 @@ export default function CareerCounsellingPage() {
               Career counselling provides a supportive, structured space where individuals can explore their professional trajectory, improve workplace wellbeing, and make informed career decisions. Our approach combines evidence-based psychological tools with Islamic spiritual wellness, offering holistic guidance.
             </p>
             <p className="text-on-surface-variant leading-relaxed text-lg">
-              This service supports professionals across South Africa seeking clarity, balance, and growth. Whether you are navigating a career transition, managing stress, or seeking alignment with your values, you can find the supportive path you are looking for.
+              This service supports professionals across South Africa and internationally seeking clarity, balance, and growth. Whether you are navigating a career transition, managing stress, or seeking alignment with your values, you can find the supportive path you are looking for.
             </p>
           </div>
           <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-sm border border-outline-variant/30 relative order-1 lg:order-2">
@@ -65,7 +65,7 @@ export default function CareerCounsellingPage() {
             Who Can Benefit From Career Counselling
           </h2>
           <p className="text-on-surface-variant text-lg">
-            Our career therapy and counselling services in South Africa can provide relief and growth for a range of professional challenges and transitions.
+            Our career therapy and counselling services in South Africa and internationally can provide relief and growth for a range of professional challenges and transitions.
           </p>
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
@@ -193,10 +193,10 @@ export default function CareerCounsellingPage() {
       {/* Local SEO Paragraph */}
       <section className="py-24 px-6 md:px-20 max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-on-surface font-medium">
-          Career Counselling Services
+          Career Counselling
         </h2>
         <p className="text-on-surface-variant leading-relaxed text-lg mb-8">
-          We provide professional career counselling services to clients across South Africa. Sessions are offered in a safe, confidential and supportive environment designed to help you navigate your professional trajectory with clarity and confidence.
+          We provide professional career counselling services to clients across South Africa and internationally. Sessions are offered in a safe, confidential and supportive environment designed to help you navigate your professional trajectory with clarity and confidence.
         </p>
         <div className="w-12 h-1 bg-primary mx-auto rounded-full" />
       </section>

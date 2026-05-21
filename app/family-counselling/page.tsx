@@ -192,7 +192,7 @@ export default function FamilyCounsellingPage() {
       {/* Local SEO Paragraph */}
       <section className="py-24 px-6 md:px-20 max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-on-surface font-medium">
-          Family Counselling Services
+          Family Counselling
         </h2>
         <p className="text-on-surface-variant leading-relaxed text-lg mb-8">
           We provide professional family counselling services to clients across South Africa and internationally. Sessions are offered in a safe, confidential and supportive environment designed to help you strengthen your family bonds and move forward with clarity.

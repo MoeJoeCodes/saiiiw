@@ -193,7 +193,7 @@ export default function PrePostMaritalCounsellingPage() {
       {/* Local SEO Paragraph */}
       <section className="py-24 px-6 md:px-20 max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl mb-6 text-on-surface font-medium">
-          Pre & Post Marital Counselling Services
+          Pre & Post Marital Counselling
         </h2>
         <p className="text-on-surface-variant leading-relaxed text-lg mb-8">
           We provide professional pre and post marital counselling services to couples. Sessions are offered in a safe, confidential and supportive environment designed to help you build a strong foundation for your future together.
