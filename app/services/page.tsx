@@ -8,42 +8,48 @@ const SERVICES = [
     title: "Individual Counselling",
     description: "A safe, confidential space to explore your thoughts, emotions and personal challenges with professional support.",
     bullets: ["Anxiety and stress management", "Emotional wellbeing", "Personal growth and self-awareness", "Coping with life transitions"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/individual_counsellings.jpeg"
+    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/individual_counsellings.jpeg",
+    link: "/individual-counselling"
   },
   {
     category: "Relationships",
     title: "Couples Counselling",
     description: "Helping couples strengthen communication, rebuild trust and deepen emotional connection through specialized guidance.",
     bullets: ["Communication skills & conflict resolution", "Trust rebuilding & emotional intimacy", "Relationship growth & alignment"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Career_Counsellingsss.jpeg"
+    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Career_Counsellingsss.jpeg",
+    link: "/couples-counselling"
   },
   {
     category: "Youth Support",
     title: "Adolescent Counselling",
     description: "Providing young people with guidance, emotional support and tools to navigate life’s challenges in an ever-changing world.",
     bullets: ["School and social pressures", "Identity and self-confidence", "Emotional regulation & stress support"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Adolescent_Counsellings.jpeg"
+    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Adolescent_Counsellings.jpeg",
+    link: "/adolescent-counselling"
   },
   {
     category: "Harmony",
     title: "Family Counselling",
     description: "Supporting families in improving communication, understanding and harmony at home through structured clinical intervention.",
     bullets: ["Family communication & dynamics", "Parenting challenges & support", "Strengthening bonds & resolution"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/Family_Counsellingss.jpeg"
+    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/Family_Counsellingss.jpeg",
+    link: "/family-counselling"
   },
   {
     category: "Professional Growth",
     title: "Career Counselling",
     description: "Helping you gain clarity, confidence and direction in your professional journey with actionable planning.",
     bullets: ["Decision making support", "Workplace stress & balance", "Goal setting & strengths discovery"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Career_Counsellingss.jpeg"
+    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Career_Counsellingss.jpeg",
+    link: "/career-counselling"
   },
   {
     category: "Foundations",
     title: "Pre & Post Marital Counselling",
     description: "Supporting couples before and after marriage to build a strong, lasting foundation rooted in mutual respect.",
     bullets: ["Marriage preparation & alignment", "Managing expectations & tools", "Strengthening long-term partnership"],
-    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Pre_&_Post%20Marital_Counsellings.jpeg"
+    image: "https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/services/Pre_&_Post%20Marital_Counsellings.jpeg",
+    link: "/pre-post-marital-counselling"
   }
 ];
 
@@ -67,15 +73,17 @@ export default function ServicesPage() {
         {SERVICES.map((srv, idx) => {
           const isEven = idx % 2 === 0;
           return (
-            <div key={srv.title} className="px-6 md:px-20 max-w-7xl mx-auto">
+            <div key={srv.title} className="px-6 md:px-20 max-w-7xl mx-auto group">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
                 <div className={`flex flex-col justify-center ${isEven ? 'order-2 lg:order-1' : 'order-2'}`}>
                   <span className="text-xs text-primary uppercase tracking-[0.2em] font-semibold mb-4 block">{srv.category}</span>
-                  <h2 className="font-serif text-4xl mb-6 text-on-surface font-medium">{srv.title}</h2>
+                  <Link href={srv.link} className="inline-block hover:text-primary transition-colors">
+                    <h2 className="font-serif text-4xl mb-6 text-on-surface font-medium">{srv.title}</h2>
+                  </Link>
                   <p className="text-on-surface-variant mb-8 leading-relaxed text-lg">
                     {srv.description}
                   </p>
-                  <ul className="space-y-4">
+                  <ul className="space-y-4 mb-8">
                     {srv.bullets.map((b) => (
                       <li key={b} className="flex items-start gap-4">
                         <CheckCircle2 className="text-primary w-6 h-6 shrink-0" />
@@ -83,8 +91,12 @@ export default function ServicesPage() {
                       </li>
                     ))}
                   </ul>
+                  <Link href={srv.link} className="inline-flex items-center text-primary font-semibold hover:text-primary-container transition-colors group-hover:underline">
+                    View full details
+                    <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+                  </Link>
                 </div>
-                <div className={`w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-sm border border-outline-variant/30 relative ${isEven ? 'order-1 lg:order-2' : 'order-1'}`}>
+                <Link href={srv.link} className={`block w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-sm border border-outline-variant/30 relative ${isEven ? 'order-1 lg:order-2' : 'order-1'}`}>
                   <Image 
                     src={srv.image} 
                     alt={srv.title} 
@@ -92,7 +104,7 @@ export default function ServicesPage() {
                     className="object-cover transition-transform duration-700 hover:scale-105" 
                     referrerPolicy="no-referrer"
                   />
-                </div>
+                </Link>
               </div>
             </div>
           );
