@@ -29,15 +29,15 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 text-on-surface">
-      <nav className="flex justify-between items-center w-full px-6 md:px-20 py-5 max-w-7xl mx-auto relative">
-        <Link href="/" className="flex items-center">
+    <header className="sticky top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 text-on-surface h-[114px]">
+      <nav className="flex justify-between items-center w-full h-full px-6 md:px-20 py-5 max-w-7xl mx-auto relative">
+        <Link href="/" className="flex items-center flex-shrink-0">
           <Image 
-            src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/saiiiw_logo_6.png"
+            src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/variant-2.svg"
             alt="SAIIIW Logo"
             width={240}
             height={80}
-            className="object-contain w-auto h-12 md:h-16 transform scale-[1.5] md:scale-[1.7] origin-left translate-y-1"
+            className="object-contain object-left w-auto h-12 md:h-16 transform scale-[1.5] md:scale-[1.7] origin-left translate-y-1"
             priority
           />
         </Link>

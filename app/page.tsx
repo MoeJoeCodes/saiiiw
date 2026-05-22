@@ -120,10 +120,20 @@ export default function HomePage() {
             SAIIIW is dedicated to bridging the timeless wisdom of Islamic traditions with evidence-based psychological care. We provide a sanctuary for healing that honors both the mind and the soul.
           </p>
           
-          <div className="pt-6 border-t border-outline-variant/50">
-            <div>
-              <div className="text-3xl font-serif text-primary font-medium mb-2">15 Years</div>
-              <div className="text-xs text-on-surface-variant uppercase tracking-widest font-semibold whitespace-pre-line leading-tight">Experience</div>
+          <div className="pt-8 border-t border-outline-variant/50">
+            <div className="flex gap-8 md:gap-12 flex-wrap">
+              <div>
+                <div className="text-3xl font-serif text-primary font-medium mb-2">17 Years</div>
+                <div className="text-xs text-on-surface-variant uppercase tracking-widest font-semibold whitespace-pre-line leading-tight">Experience</div>
+              </div>
+              <div>
+                <div className="text-3xl font-serif text-primary font-medium mb-2">17 Years</div>
+                <div className="text-xs text-on-surface-variant uppercase tracking-widest font-semibold whitespace-pre-line leading-tight">Sessions</div>
+              </div>
+              <div>
+                <div className="text-3xl font-serif text-primary font-medium mb-2">17 Years</div>
+                <div className="text-xs text-on-surface-variant uppercase tracking-widest font-semibold whitespace-pre-line leading-tight">Workshops</div>
+              </div>
             </div>
           </div>
         </div>
