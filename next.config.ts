@@ -37,6 +37,35 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/Contact_Us.php',
+        destination: '/contact',
+        permanent: true,
+      },
+      {
+        source: '/Services.html',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/Why-Us---Who-We-Are.html',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/Education.html',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/Community-Work.html',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
   output: 'standalone',
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
