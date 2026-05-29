@@ -6,10 +6,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     '',
     '/about',
-    '/about/juraida-latif',
-    '/about/saeed-nasser',
-    '/about/shaakirah-dockrat-boda',
-    '/about/umme-muhammed',
     '/career-counselling',
     '/contact',
     '/couples-counselling',

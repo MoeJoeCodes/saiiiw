@@ -3,6 +3,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Saeed Nasser - SAIIIW',
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function SaeedNasserProfile() {
