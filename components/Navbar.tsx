@@ -31,7 +31,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 text-on-surface h-[114px]">
       <nav className="flex justify-between items-center w-full h-full px-6 md:px-20 py-5 max-w-7xl mx-auto relative">
-        <Link href="/" className="flex items-center flex-shrink-0">
+        <Link href="/" className="flex items-center flex-shrink-0" aria-label="Home">
           <Image 
             src="https://qnelsjzfuynqotkwojxv.supabase.co/storage/v1/object/public/saiiiw/images/variant-2.svg"
             alt="SAIIIW Logo"
@@ -101,6 +101,7 @@ export function Navbar() {
           <button 
             className="md:hidden text-primary p-2"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

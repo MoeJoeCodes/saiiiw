@@ -32,6 +32,11 @@ export function TeamMemberCard({ member }: { member: any }) {
           <button
             onClick={() => setIsExpanded(!isExpanded)}
             className="text-primary text-sm mt-2 font-medium hover:underline focus:outline-none"
+            aria-label={
+              isExpanded
+                ? `Read less about ${member.name}`
+                : `Read more about ${member.name}`
+            }
           >
             {isExpanded ? "Read less" : "Read more"}
           </button>
